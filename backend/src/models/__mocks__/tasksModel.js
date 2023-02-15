@@ -1,4 +1,4 @@
-const mockTasks = require("./mockTasks");
+const mockTasks  = require("./mockTasks");
 
 const tasksModel = {
     getAll: jest.fn().mockResolvedValue(mockTasks),
